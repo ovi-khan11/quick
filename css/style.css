@@ -3,9 +3,12 @@ body{
     padding:0px;
     box-sizing: border-box;
 }
+img{
+    max-width: 100%;
+}
 header{
     padding:30px 50px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 
 }
 nav{
@@ -65,6 +68,64 @@ nav ul li a{
 .bannar img{
     
     width:80%;
-    margin:30px 0px 0px 0px ;
+    margin:auto ;
+    
 }
+.parent{
+    display: flex;
+}
+.special{
+    text-align: right;
+
+}
+
+
+.item{
+    width: 50%;
+    padding: 0px 25px 0px 25px;
+}
+.item h1{
+    font-size: 45px;
+    color: #3b506c;
+}
+.special h1{
+    color:red;
+
+}
+
+
+.item p{
+    font-size: 18px;
+    color: #3b506c;
+}
+.service-section{
+    margin: 50px 30px;
+}
+.service{
+    display: flex;
+    gap: 25px;
+}
+.service-item{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.service-item img{
+    height: 250px;
+}
+.service-item h4{
+    font-size: 28px;
+    margin: 10px;
+    color: #3b506c;
+}
+footer{
+    background-color: #3b506c;
+    padding: 10px;
+    text-align: center;
+}
+footer h3{
+    font-size: 18px;
+}
+
+
 
